@@ -1,6 +1,5 @@
-# problems.py
-import numpy as np
 
+import numpy as np
 
 
 def rastrigin(point):
@@ -14,12 +13,13 @@ def rastrigin(point):
     )
 
 
-
 def rosenbrock(point):
     x, y = point
-    return float(
-        (1 - x)**2 + 100 * (y - x**2)**2
+    return (
+        (1 - x)**2
+        + 100 * (y - x**2)**2
     )
+
 
 PROBLEMS = {
     "rastrigin": {

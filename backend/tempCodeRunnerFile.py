@@ -1,1 +1,1 @@
-python -u "c:\Users\pc\Desktop\pilot\backend\main.py"
+#python -u "c:\Users\pc\Desktop\pilot\backend\main.py"
