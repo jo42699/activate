@@ -109,3 +109,6 @@ def compare_3d(problem, iterations=500, seed=42):
 
     plt.tight_layout()
     plt.show()
+
+
+
